@@ -1,0 +1,36 @@
+# GPU CPU 
+# gpus: 1
+workers: 4
+
+# Path
+lib: '/data/datasets/snuh_cls_data.csv'
+output: 
+weight: # experiments/bone_only/batch128_fc_lr_5e-4_CosineLoss/checkpoint_best.pth
+
+# Model
+dimension: 2D # 2D, 3D
+encoder: convnext # resnet18, convnext
+pretrained: True
+classifier: gru # gru, fc
+# slices_select: center # center, random
+
+# Hyper-parameter
+nepochs: 60
+batch_size: 64
+lr: 1e-4 #1e-3 5e-4 1e-4 5e-5 1e-5
+
+# GRU decoder setting
+layer_dim: 1
+dropout_prob: 0.3
+
+# Loss
+loss: cos # ce, cos+ce, cos
+label_smoothing: 0
+ce_weight: 0 # 0.1
+
+# Data
+bone_only: 'bone_muscle'
+# split: 0
+
+# etc
+test_every: 1
