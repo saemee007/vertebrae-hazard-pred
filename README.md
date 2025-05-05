@@ -50,11 +50,13 @@ Organize the data as follows:
 data/
 ├── cls/
 │   └── nifti/
-│       ├── 001.nii.gz
+│       ├── 001_0000.nii.gz
+│       ├── 002_0000.nii.gz
 │       ├── ...
 └── pred/
     └── nifti/
-        ├── 001.nii.gz
+        ├── 001_0000.nii.gz
+        ├── 002_0000.nii.gz
         ├── ...
 
 ```
