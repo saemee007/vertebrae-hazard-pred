@@ -48,7 +48,10 @@ Organize the data as follows:
 
 ```bash
 data/
-└── nifti/
+├── cls/nifti/
+    ├── 001.nii.gz
+    ├── ...
+└── pred/nifti/
     ├── 001.nii.gz
     ├── ...
 
