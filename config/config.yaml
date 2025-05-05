@@ -5,7 +5,7 @@ workers: 4
 # Path
 lib: '/data/datasets/snuh_cls_data.csv'
 output: 
-weight: # exp/det_model_checkpoint.pth
+weight: # exp/pred_model_checkpoint.pth
 
 # Model
 dimension: 2D # 2D, 3D
