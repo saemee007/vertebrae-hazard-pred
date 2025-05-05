@@ -60,9 +60,9 @@ data/
         ├── ...
 
 ```
-Based on the above data structure, you need to add CSV files containing the labels for each dataset. Refer to `data/datasets/example_cls_data.csv` and `data/datasets/example_pred_data.csv` for guidance on how to structure your label CSV files.
+- Based on the above data structure, you need to add CSV files containing the labels for each dataset. Refer to `data/datasets/example_cls_data.csv` and `data/datasets/example_pred_data.csv` for guidance on how to structure your label CSV files.
 
-And update config with your local data paths.
+- And update config with your local data paths.
 
 ---
 ## 🔄 Data Preprocessing
