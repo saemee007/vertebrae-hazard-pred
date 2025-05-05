@@ -5,13 +5,13 @@ workers: 4
 # Path
 lib: '/data/datasets/snuh_cls_data.csv'
 output: 
-weight: # experiments/bone_only/batch128_fc_lr_5e-4_CosineLoss/checkpoint_best.pth
+weight: # exp/det_model_checkpoint.pth
 
 # Model
 dimension: 2D # 2D, 3D
 encoder: convnext # resnet18, convnext
 pretrained: True
-classifier: gru # gru, fc
+classifier: fc # gru, fc
 # slices_select: center # center, random
 
 # Hyper-parameter
@@ -29,8 +29,8 @@ label_smoothing: 0
 ce_weight: 0 # 0.1
 
 # Data
-bone_only: 'bone_muscle'
-# split: 0
+bone_only: 'bone_only'
+# split: 4
 
 # etc
 test_every: 1
