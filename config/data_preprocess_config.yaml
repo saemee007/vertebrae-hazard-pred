@@ -1,0 +1,6 @@
+# Data
+data_root: /data2/20221129_CT
+file_type: .nii.gz # .nii or .nii.gz
+
+# GPU
+gpu_id: '1'
