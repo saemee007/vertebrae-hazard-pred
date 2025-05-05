@@ -14,7 +14,7 @@ Official implementation of the paper:
 We recommend using **Python 3.9+** and setting up a virtual environment:
 
 ```bash
-git clone https://github.com/saemee007/vertebral-fracture-prediction.git
+git clone https://github.com/saemee007/vertebrae-hazard-pred.git
 cd vertebral-fracture-prediction
 
 # Install dependencies
