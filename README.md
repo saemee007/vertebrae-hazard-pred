@@ -28,13 +28,13 @@ To use the pre-trained model checkpoint, follow these steps:
 
 1. **Download the Model Checkpoint from Google Drive**:
    
-   - Visit the [Google Drive Link](https://drive.google.com/file/d/1QCLPMZ5Q8F1jB1FioddYUz3477tgTVTJ/view?usp=sharing) and download the checkpoint file (e.g., `det_model_checkpoint.pth`).
+   - Visit the [Google Drive Link](https://drive.google.com/file/d/1QCLPMZ5Q8F1jB1FioddYUz3477tgTVTJ/view?usp=sharing) and download the checkpoint file (e.g., `pred_model_checkpoint.pth`).
    - Visit the [Google Drive Link](https://drive.google.com/file/d/1kpRYRYFksrnEr3nrF3xEEeO7LNTQDmgk/view?usp=sharing) and download the checkpoint file (e.g., `seg_model_checkpoint.pth`).
 
 2. **Move the Model Checkpoint to the Appropriate Directory**:
    
    ```bash
-   mv /path/to/downloaded/det_model_checkpoint.pth exp/
+   mv /path/to/downloaded/pred_model_checkpoint.pth exp/
    mv /path/to/downloaded/seg_model_checkpoint.pth v7_2d_unet/exp/
    ```
 ---
