@@ -15,7 +15,7 @@ We recommend using **Python 3.9+** and setting up a virtual environment:
 
 ```bash
 git clone https://github.com/saemee007/vertebrae-hazard-pred.git
-cd vertebral-fracture-prediction
+cd vertebral-fracture-pred
 
 # Install dependencies
 pip install -r requirements.txt
