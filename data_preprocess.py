@@ -30,7 +30,7 @@ if __name__ == "__main__":
     if True:
         print()
         print("Start inference of v7_2d_unet (2 / 4 stages) ... ")
-        os.system(f"python /home/saemeechoi/snu/v7_2d_unet/inference.py --data_root {args.data_root} --gpu_id {args.gpu_id} --file_type {args.file_type} --config /home/saemeechoi/snu/v7_2d_unet/configs/infer_config.yaml")
+        os.system(f"python v7_2d_unet/inference.py --data_root {args.data_root} --gpu_id {args.gpu_id} --file_type {args.file_type} --config /home/saemeechoi/snu/v7_2d_unet/configs/infer_config.yaml")
     
     # Refine Segmentation
     print()
