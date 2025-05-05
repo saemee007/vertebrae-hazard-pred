@@ -47,14 +47,14 @@ Update configs/path_config.yaml with your local data paths.
 
 Run the preprocessing pipeline to prepare the data for training:
 ```bash
-python preprocessing/preprocess.py --config configs/path_config.yaml
+python data_preprocess.py --config config/data_preprocess_config.yaml
 ```
 ---
 ## 🧠 Training
 
 To train the multi-task model:
 ```bash
-python main.py --mode train --config configs/train_config.yaml
+python train_MTL.py --config config/config.yaml m--cls_data data/datasets/_cls_data.csv  --pred_data data/datasets/pred_data.csv --slices_select random --view axial --task MTL --gpus 0 --split 0 --sort_slice --nashmtl 
 ```
 ---
 ## 📋 Citation
