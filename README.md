@@ -34,7 +34,7 @@ To use the pre-trained model checkpoint, follow these steps:
 2. **Move the Model Checkpoint to the Appropriate Directory**:
    
    ```bash
-   mv /path/to/downloaded/det_model_checkpoint.pth /exp/
+   mv /path/to/downloaded/det_model_checkpoint.pth exp/
    mv /path/to/downloaded/seg_model_checkpoint.pth v7_2d_unet/exp/
    ```
 ---
