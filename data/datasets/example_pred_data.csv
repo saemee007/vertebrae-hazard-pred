@@ -1,0 +1,4 @@
+case number,y,duration,train_0,train_1,train_2,train_3,train_4,path
+1,1.0,4,0,0,0,0,0,/data/pred/nifti/1_0000.nii.gz
+2,0.0,3,0,0,0,0,0,/data/pred/nifti/2_0000.nii.gz
+4,0.0,1,0,0,0,0,0,/data/pred/nifti/4_0000.nii.gz

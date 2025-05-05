@@ -1,0 +1,4 @@
+case number,T12,L1,L2,L3,L4,category_org,y,train_0,train_1,train_2,train_3,train_4,path
+7,1,0,0,0,0,,1,0,0,0,0,0,/data/cls/nifti/007_0000.nii.gz
+14,0,1,0,0,0,,1,0,0,0,0,0,/data/cls/nifti/014_0000.nii.gz
+15,0,0,1,0,1,,1,0,0,0,0,0,/data/cls/nifti/015_0000.nii.gz
