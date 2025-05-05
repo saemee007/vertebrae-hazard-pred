@@ -75,7 +75,7 @@ python data_preprocess.py --config config/data_preprocess_config.yaml
 
 To train the multi-task model:
 ```bash
-python train_MTL.py --config config/config.yaml m--cls_data data/datasets/cls_data.csv  --pred_data data/datasets/pred_data.csv --slices_select random --view axial --task MTL --gpus 0 --split 0 --sort_slice --nashmtl 
+python train_MTL.py --config config/config.yaml --cls_data data/datasets/cls_data.csv  --pred_data data/datasets/pred_data.csv --slices_select random --view axial --task MTL --gpus 0 --split 0 --sort_slice --nashmtl 
 ```
 ---
 ## 📋 Citation
