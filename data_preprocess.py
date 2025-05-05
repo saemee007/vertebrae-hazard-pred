@@ -15,7 +15,7 @@ if __name__ == "__main__":
     print("Start data preprocessing (4 stages) ... \n")
 
     # Arguments
-    args = arg_parse()
+    args = parse_argument_data_preprocess()
 
     # Run Total Segmentator
     print()

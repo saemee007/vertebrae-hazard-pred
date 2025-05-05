@@ -1,0 +1,18 @@
+# Data
+# data_root: /data/SNU_2nd/previous/bora/temp/
+vertical_filp: True
+
+# GPU
+use_gpu: True
+# gpu_id: '1'
+
+# hyper-paraemeter
+batch_size: 32
+augmentation: False
+
+# Monitor
+with_monitor: False
+user: 'smchoi'
+
+# Path
+resume: exp/new_epoch_0015_dice0.9093_loss0.19506681.pth
