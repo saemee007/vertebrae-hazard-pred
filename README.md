@@ -43,7 +43,6 @@ To use the pre-trained model checkpoint, follow these steps:
 Due to medical data privacy, we do not distribute the dataset publicly.
 To reproduce our results:
 
-Obtain the CT scan data with bone and muscle segmentation labels.
 Organize the data as follows:
 
 ```bash
