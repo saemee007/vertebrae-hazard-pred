@@ -41,9 +41,7 @@ To use the pre-trained model checkpoint, follow these steps:
 ## 📦 Data Setup
 
 Due to medical data privacy, we do not distribute the dataset publicly.
-To reproduce our results:
-
-Organize the data as follows:
+To reproduce our results, organize the data as follows:
 
 ```bash
 data/
